@@ -14,9 +14,14 @@ UCLASS()
 class BATTLETANK_API ATankPlayerController : public APlayerController
 {
 	GENERATED_BODY()
-	
+
 public:
-	ATank * GetControlledTank() const;
-	
+	ATank *GetControlledTank() const;
+
 	virtual void BeginPlay() override;
+
+	virtual void Tick(float DeltaTime) override;
+
+	// move tank barrel towards crosshair
+	void AimTowardsCrosshair();
 };

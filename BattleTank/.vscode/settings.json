@@ -1,0 +1,8 @@
+{
+	"files.exclude": {
+		"/Users/sxs2uud/Development/Unreal/unreal-course-04/BattleTank/.vscode": true,
+		"/Users/sxs2uud/Development/Unreal/unreal-course-04/BattleTank/Content": true,
+		"/Users/sxs2uud/Development/Unreal/unreal-course-04/BattleTank/Intermediate": true,
+		"/Users/sxs2uud/Development/Unreal/unreal-course-04/BattleTank/Saved": true
+	}
+}
