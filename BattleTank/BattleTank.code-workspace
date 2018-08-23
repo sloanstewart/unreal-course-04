@@ -8,6 +8,14 @@
 		}
 	],
 	"settings": {
-		"typescript.tsc.autoDetect": "off"
+		"typescript.tsc.autoDetect": "off",
+		"files.associations": {
+			"deque": "cpp",
+			"map": "cpp",
+			"string": "cpp",
+			"string_view": "cpp",
+			"unordered_map": "cpp",
+			"vector": "cpp"
+		}
 	}
 }
